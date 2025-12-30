@@ -1,17 +1,11 @@
-# Parking Project – Backend Java / Spring Boot
+### Java Spring template project
 
-Backend REST sviluppato in Java con Spring Boot.
+This project is based on a GitLab [Project Template](https://docs.gitlab.com/ee/gitlab-basics/create-project.html).
 
-## Tech stack
-- Java 17
-- Spring Boot, Spring Security
-- REST API
-- MySQL / MongoDB
-- Docker & Docker Compose
-- GitLab CI/CD
-- SonarQube
+Improvements can be proposed in the [original project](https://gitlab.com/gitlab-org/project-templates/spring).
 
-## Avvio (locale)
-```bash
-./mvnw spring-boot:run
----
+### CI/CD with Auto DevOps
+
+This template is compatible with [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/).
+
+If Auto DevOps is not already enabled for this project, you can [turn it on](https://docs.gitlab.com/ee/topics/autodevops/#enabling-auto-devops) in the project settings.

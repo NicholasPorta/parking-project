@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://localhost:27017/parkingdb
+      uri: mongodb://mongodb:27017/parkingdb
+      auto-index-creation: true
+
+logging:
+  level:
+    org:
+      mongodb:
+        driver: ERROR
+      springframework:
+        security: ERROR
+
+server:
+  port: 8090
+
+app:
+  codice-admin: 123
